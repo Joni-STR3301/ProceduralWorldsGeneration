@@ -11,7 +11,6 @@ ADJACENCY_RULES = {
 }
 
 def is_valid(tile, neighbors):
-    """Проверяет, может ли текущая плитка быть рядом с данными соседями"""
     for neighbor in neighbors:
         if neighbor not in ADJACENCY_RULES[tile]:
             return False
