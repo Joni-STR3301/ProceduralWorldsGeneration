@@ -1,11 +1,8 @@
 import numpy as np
 import pygame
 import random
-
-# Инициализация pygame
 pygame.init()
 
-# Размер окна и клеток
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 CELL_SIZE = 20
